@@ -2,8 +2,12 @@
 <html lang="en">
   <!-- Head -->
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Daniela Reijs</title>
@@ -12,42 +16,71 @@
   <body>
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="logo">
-          <h2>Daniela Reijs</h2>
-        </div>
-        <div class="navLinks">
-        </div>
+      <div class="container-fluid d-md-none text-center bg-light fixed-top" id="logo">
+        <h4><a href="#">Daniela Reijs</a></h4>
+      </div>
+      <nav class="navbar navbar-expand navbar-light bg-light navbar-fixed-top">
+            <a class="navbar-brand" href="index.html">Daniela Reijs</a>
+            <div class="navLinks ml-auto">
+            <ul class="navbar-nav list-unstyled">
+              <li class="nav-item mx-4"><a class="nav-link" href="#">Portfolio</a></li>
+              <li class="nav-item mx-4"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item mx-4"><a class="nav-link" href="#">Conact</a></li>
+            </ul>
+          </div>
       </nav>
+      <!---
+      <nav class="navbar navbar-expand navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Daniela Reijs</a>
+          <div class="ml-md-auto">
+            <ul class="navbar-nav list-unstyled">
+              <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Conact</a></li>
+            </ul>
+          </div>
+      </nav> -->
     </header>
     <!-- Main Presentation -->
-    <div class="main-presentation">
+    <div class="main-container mx-auto">
+    <div class="main-presentation" id="homeSection">
       <div class="row">
         <div class="col-12">
         </div>
       </div>
     </div>
     <!-- Portfolio -->
-    <div class="portfolio">
-      <div class="row">
-        <div class="col-12 col-md-4">
+    <div id="portfolioSection">
+      <div class="row my-5">
+        <div class="col-12 col-md-4 px-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 px-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 px-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </div>
     </div>
     <!-- About -->
-    <div class="about">
-      <div class="row">
-        <div class="col-12 col-md-6">
+    <div id="aboutSection">
+      <div class="row my-5">
+        <div class="col-12 col-md-6 px-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 px-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </div>
     </div>
   <!-- Contact -->
+</div>
     <footer>
 
     </footer>
