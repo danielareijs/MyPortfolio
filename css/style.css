@@ -36,5 +36,12 @@ html,
 
 .aboutImage {
   width: 70%;
-  border-radius: 150px;
+  border-radius: 300px;
+}
+
+@media all and (max-width: 764px) {
+  .contactBox {
+    max-width: 65%;
+    margin: 0 auto;
+  }
 }
