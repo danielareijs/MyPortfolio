@@ -20,13 +20,35 @@ html,
   }
 }
 
+.nav-link {
+  font-size: 11px;
+  font-family: montserrat, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #8AC498 !important;
+}
+
+.navbar-brand,
+#logo,
+#heroSection h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  letter-spacing: 0.2em;
+}
+
+#logo a {
+  text-decoration: none;
+}
+
 /* MAIN */
 
 .content {
   width: 85%;
 }
 
-#homeSection {
+#heroSection {
   background-image: url("../images/main-bg.jpg");
   height: 100%;
   background-position: center;
@@ -34,9 +56,90 @@ html,
   background-size: cover;
 }
 
+.presentation {
+  border: 1px solid hsla(337, 0%, 100%, 40%);
+  padding: 3em;
+  background-color: hsla(337, 0%, 100%, 20%);
+}
+
+#heroSection h1 {
+  font-size: 3em;
+}
+
+#heroSection h3 {
+  font-size: 0.7em;
+  font-family: montserrat, sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.content h1 {
+  font-family: montserrat, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#portfolioSection p {
+  font-size: 8px;
+  font-family: montserrat, sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  text-transform: uppercase;
+}
+
 .aboutImage {
   width: 70%;
   border-radius: 300px;
+}
+
+#aboutSection p {
+  text-align: justify;
+  font-size: 10px;
+  font-family: montserrat, sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+#aboutSection span {
+  color: #8ac498;
+  font-weight: 600;
+}
+
+#contactSection p {
+  font-size: 10px;
+  font-family: montserrat, sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  font-weight: 300;
+}
+
+#contactSection h6 {
+  border-bottom: 2px solid #8ac498;
+  font-size: 11px;
+  font-family: montserrat, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.mail-to {
+  color: black;
+  text-decoration: none;
+}
+
+.mail-to:hover {
+  color: #8ac498;
+  text-decoration: none;
+}
+
+.socialMediaLogos a {
+  color: #8ac498;
+}
+
+.socialMediaLogos a:hover {
+  color: #76b084;
 }
 
 @media all and (max-width: 764px) {
