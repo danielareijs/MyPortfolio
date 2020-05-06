@@ -10,6 +10,8 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
     <title>Daniela Reijs</title>
   </head>
   <!-- Body -->
@@ -17,15 +19,15 @@
     <header>
       <!-- Navbar -->
       <div class="container-fluid d-md-none text-center bg-light fixed-top" id="logo">
-        <h4><a href="#">Daniela Reijs</a></h4>
+        <h4><a href="index.html">Daniela Reijs</a></h4>
       </div>
       <nav class="navbar navbar-expand navbar-light bg-light navbar-fixed-top border-bottom">
             <a class="navbar-brand" href="index.html">Daniela Reijs</a>
             <div class="navLinks ml-auto">
             <ul class="navbar-nav list-unstyled">
-              <li class="nav-item mx-4"><a class="nav-link" href="#">Portfolio</a></li>
-              <li class="nav-item mx-4"><a class="nav-link" href="#">About</a></li>
-              <li class="nav-item mx-4"><a class="nav-link" href="#">Conact</a></li>
+              <li class="nav-item mx-4"><a class="nav-link" href="#portfolioSection">Portfolio</a></li>
+              <li class="nav-item mx-4"><a class="nav-link" href="#aboutSection">About</a></li>
+              <li class="nav-item mx-4"><a class="nav-link" href="#contactSection">Conact</a></li>
             </ul>
           </div>
       </nav>
@@ -51,21 +53,21 @@
         <div class="row justify-content-around">
           <div class="col-12 col-md-4 p-4 text-center">
             <a href="#"><img class="img-fluid py-3" src="https://via.placeholder.com/500x380" /></a>
-            <p>Websites name - short about-text </p>
+            <p>Websites name - short discription </p>
           </div>
           <div class="col-12 col-md-4 p-4 text-center">
             <a href="#"><img class="img-fluid py-3" src="https://via.placeholder.com/500x380" /></a>
-            <p> Websites name - short about text</p>
+            <p> Websites name - short discription</p>
           </div>
           <div class="col-12 col-md-4 p-4 text-center">
             <a href="#"><img class="img-fluid py-3" src="https://via.placeholder.com/500x380" /></a>
-            <p>Websites name - short about-text</p>
+            <p>Websites name - short discription</p>
           </div>
         </div>
       </div>
       <hr>
     <!-- About -->
-      <div id="aboutSection" class="container-fluid">
+      <div id="aboutSection" class="container-fluid mb-5">
         <div class="row my-5">
           <div class="col d-flex justify-content-center my-5">
             <h1>About</h1>
@@ -76,18 +78,47 @@
           <img class="img-fluid aboutImage" src="./images/img-me.png">
           </div>
           <div class="col-12 col-md-6 p-3">
-            Hello! My name is Daniela, I am studying to become an awesome Front-end Developer.
+            Hi! My name is Daniela, I am studying to become an awesome Front-end Developer.
             I am 28 years old, from Stockholm, Sweden. I live together with my boyfriend and dog in Oslo, Norway, where I also work as an assistent restaurant manager on the side of my studies.
           <p><br> Here are a few fun facts about me;
-          <br>I can drink coffee at any time of the day and still be able to sleep right after, I like waking up early in the morning, if I only got to eat one single thing for the rest of my life it would be cheese, in my fridge you will always find baconcheese, salami and mustard, I never had a whole in my teeth, I like playing sqaush, I am not a fan of bananas, I always feel like eating Sushi, ramen and tacos, I'm trying to learn how to play harmonica, I can lick my elbow, I have a dog names Hugo, I have a magic wand as a remote control for my TV. </p>
+          <br>I can drink coffee at any time of the day and still be able to sleep right after, I like waking up early in the morning, if I only got to eat one single thing for the rest of my life it would be cheese, in my fridge you will always find baconcheese, salami and mustard, I am still waiting for my letter to Hogwarts, I never had a whole in my teeth, I like playing sqaush, I am not a fan of bananas, I always feel like eating Sushi, ramen and tacos, I'm trying to learn how to play harmonica, I can lick my elbow, I have a dog named Hugo, I have a magic wand as a remote control for my TV. </p>
           </div>
         </div>
       </div>
-      <hr>
-    </div>
   <!-- Contact -->
-    <footer>
-
+      <div id="contactSection" class="container-fluid py-4 border-top">
+        <div class="row my-5">
+          <div class="col d-flex justify-content-center my-5">
+            <h1>Contact</h1>
+          </div>
+        </div>
+        <div class="row my-5 justify-content-around">
+          <div class="col-12 col-md-4 mb-5">
+            <div class=" py-5 border-top border-bottom text-center contactBox">
+              <i class="fas fa-phone text-dark mb-2 d-block"></i>
+              <h6 class="text-dark text-uppercase d-inline-block border-bottom pb-4">Phone</h6>
+              <div><small>+47 1010 1010</small></div>
+              </div>
+            </div>
+          <div class="col-12 col-md-4">
+            <div class="py-5 border-top border-bottom text-center contactBox">
+              <i class="far fa-envelope text-dark mb-2 d-block"></i>
+              <h6 class="text-dark text-uppercase d-inline-block border-bottom pb-4">Email</h6>
+              <div><a href="mailto:danielareijs@gmail.com">danielareijs@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-5 text-center">
+          <h1 class="d-inline mx-4"><a href="#"><i class="fab fa-github-square"></i></a></h1>
+          <h1 class="d-inline mx-4"><a href="#"><i class="fab fa-facebook-square"></i></a></h1>
+          <h1 class="d-inline mx-4"><a href="#"><i class="fab fa-instagram-square"></i></a></h1>
+          <h1 class="d-inline mx-4"><a href="#"><i class="fab fa-linkedin"></i></a></h1>
+        </div>
+      </div>
+    </div>
+    <footer class="border-top mt-5 py-5 bg-light text-center">
+      <p><small> &copy; 2020, Daniela Reijs</small></p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
