@@ -28,7 +28,7 @@ html,
 }
 
 .nav-link:hover {
-  color: #8AC498 !important;
+  color: #8ac498 !important;
 }
 
 .navbar-brand,
@@ -97,7 +97,7 @@ html,
 
 #aboutSection p {
   text-align: justify;
-  font-size: 10px;
+  font-size: 10.5px;
   font-family: montserrat, sans-serif;
   letter-spacing: 2px;
   color: #000;
